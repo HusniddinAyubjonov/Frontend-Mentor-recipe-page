@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Young Serif', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(30, 54%, 90%);
+}
+
+.all {
+    max-width: 1200px;
+    width: 65%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.img {
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.text-1 {
+    font-size: 25px;
+    font-family: 'Young Serif', sans-serif;
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 30px;
+}
+
+.text-2 {
+    font-size: 22px;
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 10px;
+    font-family: 'Young Serif', sans-serif;
+    font-weight: 400;
+}
+
+.text-3 {
+    font-family: 'Young Serif', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+.ul {
+    background-color: hsl(330, 100%, 98%);
+    font-size: 20px;
+    padding: 0 0 0 30px;
+    border-radius: 20px;
+}
+
+.li-1 {
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.ul-1 {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.li-2 {
+    padding: 12px;
+    margin-left: 20px;
+}
+
+.text-4 {
+    font-family: 'Young Serif', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 30px;
+    color: hsl(14, 45%, 36%);
+}
+
+.text-5 {
+    font-size: 40px;
+    font-family: 'Young Serif', sans-serif;
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+    margin-top: 20px;
+}
+
+
+.ol {
+    font-size: 20px;
+    margin-left: 20px;    
+}
+
+.li-3 {
+    margin-left: 18px;
+    font-size: 22px;
+    padding: 10px;
+} 
+
+hr {
+    margin-top: 20px;
+}
+
+.text-6 {
+    font-size: 40px;
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+    margin-top: 20px;
+}
+
+.text-7 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.footer-3 {
+    margin-top: 20px;
+}
+
+span {
+    display: flex;
+}
+
+.text-8 {
+    padding: 5px;
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.text-9 {
+    padding: 5px;
+    margin-left: 300px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.text-10 {
+    padding: 5px;
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.text-11 {
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 330px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.text-12 {
+    margin-top: 20px;
+    padding: 5px;
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.text-13 {
+    padding: 5px;
+    margin-left: 310px;
+    margin-top: 20px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.text-14 {
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.text-15 {
+    margin-top: 20px;
+    padding: 5px;
+    margin-left: 360px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+    font-size: 30px;
+}
+
+
+@media only screen and (max-width: 375px) {
+    .all {
+        width: 90%; /* Пример: уменьшим ширину для мобильных устройств */
+        padding: 20px; /* Пример: уменьшим отступы */
+    }
+
+    .text-1 {
+        font-size: 18px; /* Пример: уменьшим размер шрифта */
+    }
+}
